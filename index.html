@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="calcbody">
+            <div class="screen">
+                <form action="" style="width: 100%; height: 100%; display: flex; justify-content: center;align-items: center; background-color: transparent;">
+                    <input type="text" class="scr-input" style="width: 90%; height: 90%; background-color: transparent; border: none; color: white;text-align: right;font-size: 3em; pointer-events: none;">
+                </form>
+
+            </div>
+            <div class="cbody">
+                <div class="keyboard" style="margin:.35em 0;">
+
+                    <li class="num" style="background-color: red;">*</li>
+                    <li class="num " style="background-color: red;">/</li>
+                    <li class="num" style="background-color: red;">-</li>
+                    <li class="num" style="background-color: red;">+</li>
+                </div>
+                <div class="numbers">
+
+                    <div class="row keyboard">
+                        <li class="num" id="9">9</li>
+                        <li class="num"id="8">8</li>
+                        <li class="num" id="7">7</li>
+                        <li class="num" id="6">6</li>
+
+                    </div>
+                    <div class="row keyboard">
+                        <li class="num" id="5">5</li>
+                        <li class="num" id="4">4</li>
+                        <li class="num" id="3">3</li>
+                        <li class="num" id="2">2</li>
+
+
+                    </div>
+                    <div class="row keyboard">
+                        <li class="num" id="1">1</li>
+                        <li class="num" id="0">0</li>
+                        <li class="num" id=".">.</li>
+                        <li class="equal" id="equal" id="=">=</li>
+
+                    </div>
+                    <div class="row keyboard" style="display: flex; ">
+                        <li class="clear" id="clear">C</li>
+                        <li class="deleteone num">DEL</li>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
